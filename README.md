@@ -1,4 +1,2 @@
 # Financial-Algorithms
-Creating machine learning algorithms to forecast security prices
-
-Daily Prices Dataset: https://www.kaggle.com/datasets/svaningelgem/crypto-currencies-daily-prices?resource=download
+This repository contains models created by me and a partner for predicting the price of bitcoin using various machine learning models. I worked primarily on the LSTM model. 
