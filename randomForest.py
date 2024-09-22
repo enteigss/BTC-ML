@@ -43,9 +43,7 @@ def RandomForest(d):
     model.fit(X_train, y_train)
 
     # Predictions
-    train_predictions = model.predict(X_train)
     predictions = model.predict(X_test)
-    all_predictions = np.concatenate(train_predictions, predictions)
     mae = mean_absolute_error(y_test, predictions)
     mse = mean_squared_error(y_test, predictions)
     r2 = r2_score(y_test, predictions)
@@ -69,8 +67,6 @@ def RandomForest(d):
 
     print(f"The date for the next day is: {next_day}")
     """
-
-    return all_predictions
 
 
 # Iterative forecast
